@@ -12,7 +12,7 @@ class ActionButtons extends StatelessWidget {
       case "stopped":
         {
           return Button(
-            label: "START",
+            label: "INICIAR",
             selected: true,
             callback: bloc.start,
           );
@@ -21,7 +21,7 @@ class ActionButtons extends StatelessWidget {
       case "cooking":
         {
           return Button(
-            label: "STOP",
+            label: "PARAR",
             selected: true,
             callback: bloc.stop,
           );
@@ -30,7 +30,7 @@ class ActionButtons extends StatelessWidget {
       case "done":
         {
           return Button(
-            label: "ALL DONE",
+            label: "TUDO PRONTO",
             selected: true,
             callback: bloc.reset,
           );
@@ -39,7 +39,7 @@ class ActionButtons extends StatelessWidget {
       default:
         {
           return Button(
-            label: "START",
+            label: "INICIAR",
             selected: true,
             callback: bloc.start,
           );

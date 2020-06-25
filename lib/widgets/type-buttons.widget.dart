@@ -15,19 +15,19 @@ class TypeButtons extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceAround,
       children: <Widget>[
         Button(
-            label: "Soft",
+            label: "Macio",
             selected: bloc.selected == "soft",
             callback: () {
               bloc.select("soft");
             }),
         Button(
-            label: "Medium",
+            label: "Firme",
             selected: bloc.selected == "medium",
             callback: () {
               bloc.select("medium");
             }),
         Button(
-            label: "Hard",
+            label: "Duro",
             selected: bloc.selected == "hard",
             callback: () {
               bloc.select("hard");
