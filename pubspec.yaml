@@ -53,6 +53,7 @@ flutter:
     - assets/animations/egg-cooking.flr
     - assets/animations/cooking.flr
     - assets/animations/boiling.flr
+    - assets/animations/egg-splash.flr
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

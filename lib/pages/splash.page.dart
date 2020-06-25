@@ -10,15 +10,12 @@ class SplashPage extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: <Widget>[
-          SizedBox(
-            height: 60,
-          ),
           Container(
             width: double.infinity,
-            height: 300,
+            height: 700,
             child: FlareActor(
-              "assets/animations/egg-cooking.flr",
-              alignment: Alignment.center,
+              "assets/animations/egg-splash.flr",
+              alignment: Alignment.topRight,
               fit: BoxFit.contain,
               isPaused: false,
               animation: 'start',
