@@ -1,16 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:ovosperfeitos/blocs/app.bloc.dart';
 import 'package:ovosperfeitos/widgets/action-buttons.widget.dart';
 import 'package:ovosperfeitos/widgets/eggs.widget.dart';
 import 'package:ovosperfeitos/widgets/progress.widget.dart';
 import 'package:ovosperfeitos/widgets/type-buttons.widget.dart';
-import 'package:provider/provider.dart';
 
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final bloc = Provider.of<AppBloc>(context);
-
     return Scaffold(
       body: Container(
         child: ListView(
