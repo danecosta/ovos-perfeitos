@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 
 class AppBloc extends ChangeNotifier {
-  Timer timer;
+  late Timer timer;
   String state = 'stopped';
   String selected = 'soft';
   double time = 5 * 60.0;

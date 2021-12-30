@@ -6,8 +6,8 @@ class Button extends StatelessWidget {
   final Function callback;
 
   Button({
-    @required this.label,
-    @required this.callback,
+    required this.label,
+    required this.callback,
     this.selected = false,
   });
 
@@ -25,7 +25,7 @@ class Button extends StatelessWidget {
         ),
       ),
       child: FlatButton(
-        onPressed: callback,
+        onPressed: callback as void Function()?,
         child: Text(
           label,
           style: TextStyle(
